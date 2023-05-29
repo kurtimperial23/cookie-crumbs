@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+/* START OF NAVBAR */
+.navbar {
+    position: fixed;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+}
+.logo img {
+    width: 20%;
+}
+
+.menu a {
+    color: #ac4b14;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #d8ae73;
+    color: white;
+}
+/* END OF NAVBAR */
+
+/* START OF HERO  */
+.hero {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url("https://lh3.googleusercontent.com/vYDECz8DDmxYxuJ7flViA0N_GRK4m2yANculaumic9cbwr4GXQMpeOFlddMNr82gXaJxwEOGW8uLcTNZBv7IOnwCH77uRMqqrRtxuerw");
+    background-size: cover;
+}
+
+.header h1 {
+    font-weight: 90rem;
+    font-size: 8rem;
+    padding-top: 10%;
+    color: whitesmoke;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    line-height: 9rem;
+    margin-bottom: 5rem;
+}
+
+.header a {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    opacity: 0.9;
+}
+.header a:hover {
+    background-color: #d8ae73;
+}
+/* END OF HERO */
+
+/* START OF HOME SECTION */
+.home img {
+    background-size: cover;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.home p {
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+}
+/* END OF HOME SECTION */
+
+/* START OF SPECIALTIES SECTION */
+.carousel {
+    background-color: #65350f;
+    box-sizing: border-box;
+    opacity: 0.9;
+    padding: 20px 0;
+}
+.slider {
+    z-index: 1;
+    width: 90%;
+}
+.slider_item {
+    width: 100px;
+    position: relative;
+}
+.slider_item p {
+    margin-bottom: -50px;
+    position: absolute;
+    top: 10px;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 5px;
+    font-family: "Poppins", serif;
+}
+.slider_item img {
+    border-radius: 10px;
+}
+
+.slider_item b {
+    all: inherit;
+    top: 5px;
+    font-weight: bold;
+}
+.steps {
+    color: whitesmoke;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.steps h3 {
+    font-size: 1.8rem;
+    padding-top: 20px;
+    font-family: "Poppins", serif;
+    line-height: 2.5rem;
+}
+/* END OF SPECIALTIES  SECTION */
+
+/* START OF ABOUT US SECTION */
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card p {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+/* END OF ABOUT US SECTION */
+
+/* START OF FOOTER */
+
+.footer {
+    background-color: #65350f;
+    opacity: 0.9;
+    color: whitesmoke;
+    padding: 30px 0;
+    margin-bottom: 0px;
+}
+
+.backtotop a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.backtotop a:hover {
+    color: black;
+}
+
+.footer h1 {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.footer p {
+    font-size: 1.2rem;
+}
+
+.socials p > a > i {
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+.socials p > a > i:hover {
+    color: black;
+}
+/* END OF FOOTER */
+
+/*START OF EXTENDED FOOTER */
+.extended-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.extended-footer p,
+.extended-footer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    font-weight: bold;
+}
+/* END OF EXTENDED FOOTER */
